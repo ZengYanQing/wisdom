@@ -1,0 +1,147 @@
+/*页面的样式*/
+
+.tipsOne,
+.tipsTwo {
+	color: #4a4a4a;
+	margin-left: 5px;
+	font-size: 13px;
+}
+
+.logoChoice {
+	height: 40px;
+	line-height: 40px;
+	/*margin-top: 20px;*/
+	width: 250px;
+	margin-left: 50px;
+	display: flex;
+	justify-content: space-between;
+	/*margin: 0 auto;*/
+}
+
+.choiceOne,
+.choiceTwo {
+	margin-left: 0px;
+	height: 12px;
+}
+
+.loginName{
+	    margin: -20px 15px 30px 15px;
+}
+/*登录样式*/
+
+.loginOn {
+	display: none;
+	text-align: center;
+	/*box-shadow: rgba(31, 31, 31, 0.4) 2px 2px 5px 2px;*/
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.4);
+	padding: 6px;
+	height: 300px;
+	width: 360px;
+	position: absolute;
+}
+
+.picture {
+	margin: 40px auto;
+	border-radius: 50%;
+	height: 80px;
+	width: 80px;
+}
+
+.picture img {
+	border-radius: 50%;
+	height: 80px;
+	width: 80px;
+}
+
+
+/*未登录 点击按钮时的提醒*/
+
+.denglu {
+	width: 250px;
+	margin: 0 auto;
+}
+
+.warning {
+	margin: 10px 0;
+	width: 92%;
+	position: absolute;
+	z-index: 99;
+	display: none;
+	position: absolute;
+}
+
+.warning span {
+	color: red!important;
+	display: block;
+	/*height: 30px!important;*/
+	line-height: 30px;
+	margin: 0px auto;
+	padding-top: 40px;
+}
+
+.elastic-empty {
+	height: 50px;
+	width: 100%;
+	/*background-color: #61B5EF;*/
+	border-bottom: #EEEEEE 1px solid;
+	border-radius: 5px 5px 0 0;
+}
+
+.elastic-empty span {
+	color: black;
+}
+
+.elastic-empty span {
+	display: block;
+	padding: 13px;
+}
+
+.elasticSentence {
+	display: block;
+	font-size: 14px;
+	font-family: Microsoft YaHei;
+	font-weight: 400;
+	color: rgba(153, 153, 153, 1);
+}
+
+.elasticSentence img {
+	display: block;
+	margin: 0 auto;
+	height: 230px;
+}
+
+
+/* 二级菜单点击触发的 弹框 + 一层奶奶灰*/
+
+.elastic {
+	border-radius: 5px;
+	position: absolute;
+	background-color: white;
+	width: 550px;
+	height: 340px;
+	z-index: 999;
+	text-align: center;
+	margin: 15% 36%;
+	display: none;
+}
+
+.alll {
+	display: none;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+	z-index: 99;
+	position: absolute;
+}
+
+
+/*登录的判断 提示语*/
+
+.login-tishiOne , .login-tishiTwo {
+	display: block;
+	height: 25px;
+	line-height: 25px;
+	font-size: 10px;
+	
+}
